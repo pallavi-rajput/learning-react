@@ -1,0 +1,31 @@
+.form_container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+form {
+  background-color: aliceblue;
+  width: 50%;
+}
+.sign_up {
+  display: flex;
+  flex-direction: column;
+}
+input,
+button {
+  padding: 10px 10px;
+  margin: 10px 20px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.317);
+  color: white;
+  font-weight: bold;
+}
+input::placeholder {
+  color: white;
+}
+button {
+  background-color: rgb(5, 87, 9);
+}
